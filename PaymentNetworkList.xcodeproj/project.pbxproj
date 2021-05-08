@@ -99,6 +99,8 @@
 		D5E80D7D2647219B00750E94 /* PaymentNetworkList */ = {
 			isa = PBXGroup;
 			children = (
+				D5E80DAF264721D300750E94 /* Models */,
+				D5E80DAE264721C900750E94 /* Network */,
 				D5E80D7E2647219B00750E94 /* AppDelegate.swift */,
 				D5E80D802647219B00750E94 /* SceneDelegate.swift */,
 				D5E80D822647219B00750E94 /* ViewController.swift */,
@@ -126,6 +128,20 @@
 				D5E80DA22647219E00750E94 /* Info.plist */,
 			);
 			path = PaymentNetworkListUITests;
+			sourceTree = "<group>";
+		};
+		D5E80DAE264721C900750E94 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		D5E80DAF264721D300750E94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -446,7 +462,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkList";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +481,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkList";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
