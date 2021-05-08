@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5E80D7F2647219B00750E94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80D7E2647219B00750E94 /* AppDelegate.swift */; };
+		D5E80D812647219B00750E94 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80D802647219B00750E94 /* SceneDelegate.swift */; };
+		D5E80D832647219B00750E94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80D822647219B00750E94 /* ViewController.swift */; };
+		D5E80D862647219B00750E94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E80D842647219B00750E94 /* Main.storyboard */; };
+		D5E80D882647219E00750E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E80D872647219E00750E94 /* Assets.xcassets */; };
+		D5E80D8B2647219E00750E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E80D892647219E00750E94 /* LaunchScreen.storyboard */; };
+		D5E80D962647219E00750E94 /* PaymentNetworkListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80D952647219E00750E94 /* PaymentNetworkListTests.swift */; };
+		D5E80DA12647219E00750E94 /* PaymentNetworkListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DA02647219E00750E94 /* PaymentNetworkListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5E80D922647219E00750E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E80D732647219B00750E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E80D7A2647219B00750E94;
+			remoteInfo = PaymentNetworkList;
+		};
+		D5E80D9D2647219E00750E94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5E80D732647219B00750E94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5E80D7A2647219B00750E94;
+			remoteInfo = PaymentNetworkList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5E80D7B2647219B00750E94 /* PaymentNetworkList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaymentNetworkList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E80D7E2647219B00750E94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5E80D802647219B00750E94 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D5E80D822647219B00750E94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5E80D852647219B00750E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5E80D872647219E00750E94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5E80D8A2647219E00750E94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5E80D8C2647219E00750E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E80D912647219E00750E94 /* PaymentNetworkListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentNetworkListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E80D952647219E00750E94 /* PaymentNetworkListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentNetworkListTests.swift; sourceTree = "<group>"; };
+		D5E80D972647219E00750E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5E80D9C2647219E00750E94 /* PaymentNetworkListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentNetworkListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5E80DA02647219E00750E94 /* PaymentNetworkListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentNetworkListUITests.swift; sourceTree = "<group>"; };
+		D5E80DA22647219E00750E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5E80D782647219B00750E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E80D8E2647219E00750E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E80D992647219E00750E94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5E80D722647219B00750E94 = {
+			isa = PBXGroup;
+			children = (
+				D5E80D7D2647219B00750E94 /* PaymentNetworkList */,
+				D5E80D942647219E00750E94 /* PaymentNetworkListTests */,
+				D5E80D9F2647219E00750E94 /* PaymentNetworkListUITests */,
+				D5E80D7C2647219B00750E94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5E80D7C2647219B00750E94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80D7B2647219B00750E94 /* PaymentNetworkList.app */,
+				D5E80D912647219E00750E94 /* PaymentNetworkListTests.xctest */,
+				D5E80D9C2647219E00750E94 /* PaymentNetworkListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5E80D7D2647219B00750E94 /* PaymentNetworkList */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80D7E2647219B00750E94 /* AppDelegate.swift */,
+				D5E80D802647219B00750E94 /* SceneDelegate.swift */,
+				D5E80D822647219B00750E94 /* ViewController.swift */,
+				D5E80D842647219B00750E94 /* Main.storyboard */,
+				D5E80D872647219E00750E94 /* Assets.xcassets */,
+				D5E80D892647219E00750E94 /* LaunchScreen.storyboard */,
+				D5E80D8C2647219E00750E94 /* Info.plist */,
+			);
+			path = PaymentNetworkList;
+			sourceTree = "<group>";
+		};
+		D5E80D942647219E00750E94 /* PaymentNetworkListTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80D952647219E00750E94 /* PaymentNetworkListTests.swift */,
+				D5E80D972647219E00750E94 /* Info.plist */,
+			);
+			path = PaymentNetworkListTests;
+			sourceTree = "<group>";
+		};
+		D5E80D9F2647219E00750E94 /* PaymentNetworkListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80DA02647219E00750E94 /* PaymentNetworkListUITests.swift */,
+				D5E80DA22647219E00750E94 /* Info.plist */,
+			);
+			path = PaymentNetworkListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5E80D7A2647219B00750E94 /* PaymentNetworkList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E80DA52647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkList" */;
+			buildPhases = (
+				D5E80D772647219B00750E94 /* Sources */,
+				D5E80D782647219B00750E94 /* Frameworks */,
+				D5E80D792647219B00750E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaymentNetworkList;
+			productName = PaymentNetworkList;
+			productReference = D5E80D7B2647219B00750E94 /* PaymentNetworkList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5E80D902647219E00750E94 /* PaymentNetworkListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E80DA82647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkListTests" */;
+			buildPhases = (
+				D5E80D8D2647219E00750E94 /* Sources */,
+				D5E80D8E2647219E00750E94 /* Frameworks */,
+				D5E80D8F2647219E00750E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E80D932647219E00750E94 /* PBXTargetDependency */,
+			);
+			name = PaymentNetworkListTests;
+			productName = PaymentNetworkListTests;
+			productReference = D5E80D912647219E00750E94 /* PaymentNetworkListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5E80D9B2647219E00750E94 /* PaymentNetworkListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5E80DAB2647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkListUITests" */;
+			buildPhases = (
+				D5E80D982647219E00750E94 /* Sources */,
+				D5E80D992647219E00750E94 /* Frameworks */,
+				D5E80D9A2647219E00750E94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5E80D9E2647219E00750E94 /* PBXTargetDependency */,
+			);
+			name = PaymentNetworkListUITests;
+			productName = PaymentNetworkListUITests;
+			productReference = D5E80D9C2647219E00750E94 /* PaymentNetworkListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5E80D732647219B00750E94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D5E80D7A2647219B00750E94 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D5E80D902647219E00750E94 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D5E80D7A2647219B00750E94;
+					};
+					D5E80D9B2647219E00750E94 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D5E80D7A2647219B00750E94;
+					};
+				};
+			};
+			buildConfigurationList = D5E80D762647219B00750E94 /* Build configuration list for PBXProject "PaymentNetworkList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5E80D722647219B00750E94;
+			productRefGroup = D5E80D7C2647219B00750E94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5E80D7A2647219B00750E94 /* PaymentNetworkList */,
+				D5E80D902647219E00750E94 /* PaymentNetworkListTests */,
+				D5E80D9B2647219E00750E94 /* PaymentNetworkListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5E80D792647219B00750E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E80D8B2647219E00750E94 /* LaunchScreen.storyboard in Resources */,
+				D5E80D882647219E00750E94 /* Assets.xcassets in Resources */,
+				D5E80D862647219B00750E94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E80D8F2647219E00750E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E80D9A2647219E00750E94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5E80D772647219B00750E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E80D832647219B00750E94 /* ViewController.swift in Sources */,
+				D5E80D7F2647219B00750E94 /* AppDelegate.swift in Sources */,
+				D5E80D812647219B00750E94 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E80D8D2647219E00750E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E80D962647219E00750E94 /* PaymentNetworkListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5E80D982647219E00750E94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5E80DA12647219E00750E94 /* PaymentNetworkListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5E80D932647219E00750E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E80D7A2647219B00750E94 /* PaymentNetworkList */;
+			targetProxy = D5E80D922647219E00750E94 /* PBXContainerItemProxy */;
+		};
+		D5E80D9E2647219E00750E94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5E80D7A2647219B00750E94 /* PaymentNetworkList */;
+			targetProxy = D5E80D9D2647219E00750E94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5E80D842647219B00750E94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E80D852647219B00750E94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5E80D892647219E00750E94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5E80D8A2647219E00750E94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5E80DA32647219E00750E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5E80DA42647219E00750E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5E80DA62647219E00750E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87CYMLX9UM;
+				INFOPLIST_FILE = PaymentNetworkList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5E80DA72647219E00750E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87CYMLX9UM;
+				INFOPLIST_FILE = PaymentNetworkList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkList";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5E80DA92647219E00750E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87CYMLX9UM;
+				INFOPLIST_FILE = PaymentNetworkListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentNetworkList.app/PaymentNetworkList";
+			};
+			name = Debug;
+		};
+		D5E80DAA2647219E00750E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87CYMLX9UM;
+				INFOPLIST_FILE = PaymentNetworkListTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkListTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaymentNetworkList.app/PaymentNetworkList";
+			};
+			name = Release;
+		};
+		D5E80DAC2647219E00750E94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87CYMLX9UM;
+				INFOPLIST_FILE = PaymentNetworkListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentNetworkList;
+			};
+			name = Debug;
+		};
+		D5E80DAD2647219E00750E94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 87CYMLX9UM;
+				INFOPLIST_FILE = PaymentNetworkListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkListUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PaymentNetworkList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5E80D762647219B00750E94 /* Build configuration list for PBXProject "PaymentNetworkList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E80DA32647219E00750E94 /* Debug */,
+				D5E80DA42647219E00750E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E80DA52647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E80DA62647219E00750E94 /* Debug */,
+				D5E80DA72647219E00750E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E80DA82647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E80DA92647219E00750E94 /* Debug */,
+				D5E80DAA2647219E00750E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5E80DAB2647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5E80DAC2647219E00750E94 /* Debug */,
+				D5E80DAD2647219E00750E94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5E80D732647219B00750E94 /* Project object */;
+}
