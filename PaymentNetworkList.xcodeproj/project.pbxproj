@@ -14,7 +14,6 @@
 		D5E80D882647219E00750E94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5E80D872647219E00750E94 /* Assets.xcassets */; };
 		D5E80D8B2647219E00750E94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5E80D892647219E00750E94 /* LaunchScreen.storyboard */; };
 		D5E80D962647219E00750E94 /* PaymentNetworkListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80D952647219E00750E94 /* PaymentNetworkListTests.swift */; };
-		D5E80DA12647219E00750E94 /* PaymentNetworkListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DA02647219E00750E94 /* PaymentNetworkListUITests.swift */; };
 		D5E80DCA264722AB00750E94 /* InstallmentItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DB0264722AA00750E94 /* InstallmentItem.swift */; };
 		D5E80DCB264722AB00750E94 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DB1264722AA00750E94 /* Style.swift */; };
 		D5E80DCC264722AB00750E94 /* PaymentMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DB2264722AA00750E94 /* PaymentMethod.swift */; };
@@ -50,17 +49,20 @@
 		D5E80DF5264733EE00750E94 /* ServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DF4264733EE00750E94 /* ServiceConfig.swift */; };
 		D5E80DF72647354700750E94 /* ListURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DF62647354700750E94 /* ListURL.swift */; };
 		D5E80DF9264736C700750E94 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DF8264736C700750E94 /* Service.swift */; };
+		D5E80DFD26480CD000750E94 /* ListOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DFC26480CD000750E94 /* ListOperation.swift */; };
+		D5E80DFF26480DA000750E94 /* OperationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80DFE26480DA000750E94 /* OperationProtocol.swift */; };
+		D5E80E0126480F2500750E94 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E0026480F2500750E94 /* Request.swift */; };
+		D5E80E03264811B100750E94 /* PaymentListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E02264811B100750E94 /* PaymentListViewModel.swift */; };
+		D5E80E05264819ED00750E94 /* PaymentNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E04264819ED00750E94 /* PaymentNetwork.swift */; };
+		D5E80E082648264800750E94 /* AlertDisplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E072648264800750E94 /* AlertDisplayer.swift */; };
+		D5E80E0B264826C200750E94 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E0A264826C200750E94 /* UIView+Extension.swift */; };
+		D5E80E0D2648271600750E94 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E0C2648271600750E94 /* UIImageView+Extensions.swift */; };
+		D5E80E11264832E800750E94 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E0F264832E800750E94 /* PaymentTableViewCell.swift */; };
+		D5E80E12264832E800750E94 /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E80E10264832E800750E94 /* PaymentTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		D5E80D922647219E00750E94 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D5E80D732647219B00750E94 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5E80D7A2647219B00750E94;
-			remoteInfo = PaymentNetworkList;
-		};
-		D5E80D9D2647219E00750E94 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D5E80D732647219B00750E94 /* Project object */;
 			proxyType = 1;
@@ -81,9 +83,6 @@
 		D5E80D912647219E00750E94 /* PaymentNetworkListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentNetworkListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5E80D952647219E00750E94 /* PaymentNetworkListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentNetworkListTests.swift; sourceTree = "<group>"; };
 		D5E80D972647219E00750E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D5E80D9C2647219E00750E94 /* PaymentNetworkListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaymentNetworkListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5E80DA02647219E00750E94 /* PaymentNetworkListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentNetworkListUITests.swift; sourceTree = "<group>"; };
-		D5E80DA22647219E00750E94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5E80DB0264722AA00750E94 /* InstallmentItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstallmentItem.swift; sourceTree = "<group>"; };
 		D5E80DB1264722AA00750E94 /* Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
 		D5E80DB2264722AA00750E94 /* PaymentMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethod.swift; sourceTree = "<group>"; };
@@ -119,6 +118,16 @@
 		D5E80DF4264733EE00750E94 /* ServiceConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConfig.swift; sourceTree = "<group>"; };
 		D5E80DF62647354700750E94 /* ListURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListURL.swift; sourceTree = "<group>"; };
 		D5E80DF8264736C700750E94 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		D5E80DFC26480CD000750E94 /* ListOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOperation.swift; sourceTree = "<group>"; };
+		D5E80DFE26480DA000750E94 /* OperationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationProtocol.swift; sourceTree = "<group>"; };
+		D5E80E0026480F2500750E94 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		D5E80E02264811B100750E94 /* PaymentListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentListViewModel.swift; sourceTree = "<group>"; };
+		D5E80E04264819ED00750E94 /* PaymentNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentNetwork.swift; sourceTree = "<group>"; };
+		D5E80E072648264800750E94 /* AlertDisplayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertDisplayer.swift; sourceTree = "<group>"; };
+		D5E80E0A264826C200750E94 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		D5E80E0C2648271600750E94 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		D5E80E0F264832E800750E94 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
+		D5E80E10264832E800750E94 /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,13 +145,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5E80D992647219E00750E94 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -151,7 +153,6 @@
 			children = (
 				D5E80D7D2647219B00750E94 /* PaymentNetworkList */,
 				D5E80D942647219E00750E94 /* PaymentNetworkListTests */,
-				D5E80D9F2647219E00750E94 /* PaymentNetworkListUITests */,
 				D5E80D7C2647219B00750E94 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -161,7 +162,6 @@
 			children = (
 				D5E80D7B2647219B00750E94 /* PaymentNetworkList.app */,
 				D5E80D912647219E00750E94 /* PaymentNetworkListTests.xctest */,
-				D5E80D9C2647219E00750E94 /* PaymentNetworkListUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -169,6 +169,10 @@
 		D5E80D7D2647219B00750E94 /* PaymentNetworkList */ = {
 			isa = PBXGroup;
 			children = (
+				D5E80E0E2648311300750E94 /* Cells */,
+				D5E80E062648262900750E94 /* Extensions */,
+				D5E80DFB264776B800750E94 /* Operations */,
+				D5E80DFA264776AC00750E94 /* ViewModel */,
 				D5E80DE42647292500750E94 /* UI */,
 				D5E80DAF264721D300750E94 /* Models */,
 				D5E80DAE264721C900750E94 /* Network */,
@@ -192,15 +196,6 @@
 			path = PaymentNetworkListTests;
 			sourceTree = "<group>";
 		};
-		D5E80D9F2647219E00750E94 /* PaymentNetworkListUITests */ = {
-			isa = PBXGroup;
-			children = (
-				D5E80DA02647219E00750E94 /* PaymentNetworkListUITests.swift */,
-				D5E80DA22647219E00750E94 /* Info.plist */,
-			);
-			path = PaymentNetworkListUITests;
-			sourceTree = "<group>";
-		};
 		D5E80DAE264721C900750E94 /* Network */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +203,7 @@
 				D5E80DF12647316800750E94 /* RequestBody.swift */,
 				D5E80DF8264736C700750E94 /* Service.swift */,
 				D5E80DF4264733EE00750E94 /* ServiceConfig.swift */,
+				D5E80E0026480F2500750E94 /* Request.swift */,
 				D5E80DF62647354700750E94 /* ListURL.swift */,
 				D5E80DE726472FA400750E94 /* Protocols */,
 			);
@@ -243,6 +239,7 @@
 				D5E80DB5264722AA00750E94 /* Redirect.swift */,
 				D5E80DC3264722AB00750E94 /* SelectOption.swift */,
 				D5E80DB1264722AA00750E94 /* Style.swift */,
+				D5E80E04264819ED00750E94 /* PaymentNetwork.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -261,8 +258,44 @@
 				D5E80DE826472FD800750E94 /* RequestProtocol.swift */,
 				D5E80DEA2647301000750E94 /* ServiceProtocol.swift */,
 				D5E80DEC264730A200750E94 /* ResponseProtocol.swift */,
+				D5E80DFE26480DA000750E94 /* OperationProtocol.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		D5E80DFA264776AC00750E94 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80E02264811B100750E94 /* PaymentListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D5E80DFB264776B800750E94 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80DFC26480CD000750E94 /* ListOperation.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		D5E80E062648262900750E94 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80E072648264800750E94 /* AlertDisplayer.swift */,
+				D5E80E0A264826C200750E94 /* UIView+Extension.swift */,
+				D5E80E0C2648271600750E94 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D5E80E0E2648311300750E94 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D5E80E0F264832E800750E94 /* PaymentTableViewCell.swift */,
+				D5E80E10264832E800750E94 /* PaymentTableViewCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,24 +336,6 @@
 			productReference = D5E80D912647219E00750E94 /* PaymentNetworkListTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D5E80D9B2647219E00750E94 /* PaymentNetworkListUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D5E80DAB2647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkListUITests" */;
-			buildPhases = (
-				D5E80D982647219E00750E94 /* Sources */,
-				D5E80D992647219E00750E94 /* Frameworks */,
-				D5E80D9A2647219E00750E94 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D5E80D9E2647219E00750E94 /* PBXTargetDependency */,
-			);
-			name = PaymentNetworkListUITests;
-			productName = PaymentNetworkListUITests;
-			productReference = D5E80D9C2647219E00750E94 /* PaymentNetworkListUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -334,10 +349,6 @@
 						CreatedOnToolsVersion = 12.5;
 					};
 					D5E80D902647219E00750E94 = {
-						CreatedOnToolsVersion = 12.5;
-						TestTargetID = D5E80D7A2647219B00750E94;
-					};
-					D5E80D9B2647219E00750E94 = {
 						CreatedOnToolsVersion = 12.5;
 						TestTargetID = D5E80D7A2647219B00750E94;
 					};
@@ -358,7 +369,6 @@
 			targets = (
 				D5E80D7A2647219B00750E94 /* PaymentNetworkList */,
 				D5E80D902647219E00750E94 /* PaymentNetworkListTests */,
-				D5E80D9B2647219E00750E94 /* PaymentNetworkListUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -370,18 +380,12 @@
 			files = (
 				D5E80D8B2647219E00750E94 /* LaunchScreen.storyboard in Resources */,
 				D5E80D882647219E00750E94 /* Assets.xcassets in Resources */,
+				D5E80E12264832E800750E94 /* PaymentTableViewCell.xib in Resources */,
 				D5E80D862647219B00750E94 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D5E80D8F2647219E00750E94 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5E80D9A2647219E00750E94 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -398,34 +402,43 @@
 				D5E80DD5264722AB00750E94 /* ApplicableNetwork.swift in Sources */,
 				D5E80DF5264733EE00750E94 /* ServiceConfig.swift in Sources */,
 				D5E80D832647219B00750E94 /* ViewController.swift in Sources */,
+				D5E80E0B264826C200750E94 /* UIView+Extension.swift in Sources */,
 				D5E80DD7264722AB00750E94 /* ListResult.swift in Sources */,
 				D5E80DDB264722AB00750E94 /* CustomerFormData.swift in Sources */,
 				D5E80DE1264722AB00750E94 /* ExtraElement.swift in Sources */,
 				D5E80D7F2647219B00750E94 /* AppDelegate.swift in Sources */,
+				D5E80E0D2648271600750E94 /* UIImageView+Extensions.swift in Sources */,
 				D5E80DD3264722AB00750E94 /* AccountFormData.swift in Sources */,
+				D5E80E0126480F2500750E94 /* Request.swift in Sources */,
 				D5E80DDE264722AB00750E94 /* PresetAccount.swift in Sources */,
 				D5E80DD8264722AB00750E94 /* ExtraElements.swift in Sources */,
+				D5E80E05264819ED00750E94 /* PaymentNetwork.swift in Sources */,
 				D5E80DCA264722AB00750E94 /* InstallmentItem.swift in Sources */,
 				D5E80DE926472FD800750E94 /* RequestProtocol.swift in Sources */,
 				D5E80DD4264722AB00750E94 /* Networks.swift in Sources */,
 				D5E80DD9264722AB00750E94 /* Checkbox.swift in Sources */,
+				D5E80E03264811B100750E94 /* PaymentListViewModel.swift in Sources */,
 				D5E80DCC264722AB00750E94 /* PaymentMethod.swift in Sources */,
 				D5E80DDD264722AB00750E94 /* SelectOption.swift in Sources */,
 				D5E80DD6264722AB00750E94 /* FormData.swift in Sources */,
 				D5E80DE3264722AB00750E94 /* OperationResult.swift in Sources */,
 				D5E80DE2264722AB00750E94 /* Installments.swift in Sources */,
+				D5E80E11264832E800750E94 /* PaymentTableViewCell.swift in Sources */,
 				D5E80DED264730A200750E94 /* ResponseProtocol.swift in Sources */,
 				D5E80DDA264722AB00750E94 /* Parameter.swift in Sources */,
 				D5E80DEF264730DE00750E94 /* Response.swift in Sources */,
 				D5E80DEB2647301000750E94 /* ServiceProtocol.swift in Sources */,
 				D5E80D812647219B00750E94 /* SceneDelegate.swift in Sources */,
+				D5E80DFD26480CD000750E94 /* ListOperation.swift in Sources */,
 				D5E80DCD264722AB00750E94 /* AccountRegistration.swift in Sources */,
 				D5E80DF72647354700750E94 /* ListURL.swift in Sources */,
 				D5E80DD2264722AB00750E94 /* ProviderParameters.swift in Sources */,
 				D5E80DDC264722AB00750E94 /* PaymentAmount.swift in Sources */,
+				D5E80DFF26480DA000750E94 /* OperationProtocol.swift in Sources */,
 				D5E80DD0264722AB00750E94 /* ErrorInfo.swift in Sources */,
 				D5E80DF9264736C700750E94 /* Service.swift in Sources */,
 				D5E80DE0264722AB00750E94 /* InstallmentsPlan.swift in Sources */,
+				D5E80E082648264800750E94 /* AlertDisplayer.swift in Sources */,
 				D5E80DF22647316800750E94 /* RequestBody.swift in Sources */,
 				D5E80DCB264722AB00750E94 /* Style.swift in Sources */,
 				D5E80DCE264722AB00750E94 /* InputElement.swift in Sources */,
@@ -444,14 +457,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5E80D982647219E00750E94 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D5E80DA12647219E00750E94 /* PaymentNetworkListUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -459,11 +464,6 @@
 			isa = PBXTargetDependency;
 			target = D5E80D7A2647219B00750E94 /* PaymentNetworkList */;
 			targetProxy = D5E80D922647219E00750E94 /* PBXContainerItemProxy */;
-		};
-		D5E80D9E2647219E00750E94 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D5E80D7A2647219B00750E94 /* PaymentNetworkList */;
-			targetProxy = D5E80D9D2647219E00750E94 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -685,46 +685,6 @@
 			};
 			name = Release;
 		};
-		D5E80DAC2647219E00750E94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87CYMLX9UM;
-				INFOPLIST_FILE = PaymentNetworkListUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkListUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PaymentNetworkList;
-			};
-			name = Debug;
-		};
-		D5E80DAD2647219E00750E94 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 87CYMLX9UM;
-				INFOPLIST_FILE = PaymentNetworkListUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Hassan-Gadou.PaymentNetworkListUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = PaymentNetworkList;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -751,15 +711,6 @@
 			buildConfigurations = (
 				D5E80DA92647219E00750E94 /* Debug */,
 				D5E80DAA2647219E00750E94 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D5E80DAB2647219E00750E94 /* Build configuration list for PBXNativeTarget "PaymentNetworkListUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5E80DAC2647219E00750E94 /* Debug */,
-				D5E80DAD2647219E00750E94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
