@@ -17,7 +17,7 @@ final class PaymentListViewModel {
 
     // MARK: - Properties
     private weak var delegate: PaymentListViewModelDelegate?
-    private var paymentNetworks : [[PaymentNetwork]] = []
+    private var paymentNetworks : [PaymentNetwork] = []
 
     // MARK: - Initializers
 
@@ -30,7 +30,7 @@ final class PaymentListViewModel {
     }
 
 
-    func paymentNetwork(at index: Int) -> [PaymentNetwork] {
+    func paymentNetwork(at index: Int) -> PaymentNetwork {
         return paymentNetworks[index]
     }
 
@@ -57,14 +57,7 @@ final class PaymentListViewModel {
 
     }
 
-    private func grouped(networks:[PaymentNetwork]) -> [[PaymentNetwork]] {
-        let grouped = Dictionary(grouping: networks) {
-            $0.applicableNetwork.grouping
-        }
 
-        let groupedResult = grouped.map { $0.value }
-        return groupedResult
-    }
 
     func fetchPaymentNetworks() {
 
@@ -83,8 +76,8 @@ final class PaymentListViewModel {
                         let networks = list.networks.applicable.map{
                             PaymentNetwork(from: $0)
                         }
-                        let grouped = self.grouped(networks: networks)
-                        self.paymentNetworks.append(contentsOf: grouped)
+
+                        self.paymentNetworks.append(contentsOf: networks)
                         self.delegate?.onFetchCompleted()
 
                     }

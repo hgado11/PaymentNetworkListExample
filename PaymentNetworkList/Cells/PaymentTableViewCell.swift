@@ -31,9 +31,9 @@ class PaymentTableViewCell: UITableViewCell {
             logoImage.downloaded(from: logoURL)
         }
         if (isLasIndex){
-            self.addBorder(edges: [.left,.right,.top,.bottom], color: theme.tableBorder, thickness: 2)
+            self.addBorder(edges: [.left,.right,.top,.bottom], color: theme.tableBorder, thickness: 1)
         }else{
-            self.addBorder(edges: [.left,.right,.top], color: theme.tableBorder, thickness: 2)
+            self.addBorder(edges: [.left,.right,.top], color: theme.tableBorder, thickness: 1)
         }
 
     }

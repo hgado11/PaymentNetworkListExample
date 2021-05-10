@@ -6,7 +6,6 @@
 //
 
 import Foundation
-/// Operation Protocol
 protocol OperationProtocol {
     associatedtype T
 
@@ -14,11 +13,9 @@ protocol OperationProtocol {
     var request: RequestProtocol? { get set }
 
     /// Execute an operation into specified service
-    ///
+
     /// - Parameters:
     ///   - service: service to use
-    ///   - retry: retry attempts
-    /// - Returns: Promise
-    func execute(in service: ServiceProtocol) 
-
+    ///   - completionHandler: return result with Associated T
+    func execute(in service: ServiceProtocol, completionHandler: @escaping ((Result<T?, Error>) -> Void))
 }

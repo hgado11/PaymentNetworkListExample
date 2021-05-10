@@ -7,7 +7,7 @@
 
 import Foundation
 
-class ListOperation  {
+class ListOperation:OperationProtocol  {
 
     public var request: RequestProtocol?
     public init() {

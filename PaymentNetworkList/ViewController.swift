@@ -72,7 +72,7 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource{
         guard let cell = tableView.dequeueReusableCell(withIdentifier: PaymentTableViewCell.identifier(), for: indexPath) as? PaymentTableViewCell else {
             fatalError()
         }
-        if let method = viewModel?.paymentNetwork(at: indexPath.row).first, let total = viewModel?.totalCount{
+        if let method = viewModel?.paymentNetwork(at: indexPath.row), let total = viewModel?.totalCount{
             cell.configPaymentCell(method, theme: standardTheme, isLasIndex: (indexPath.row == total - 1))
         }
         return cell
