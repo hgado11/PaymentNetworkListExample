@@ -59,6 +59,7 @@
 		D5E80E0D2648271600750E94 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E0C2648271600750E94 /* UIImageView+Extensions.swift */; };
 		D5E80E11264832E800750E94 /* PaymentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E0F264832E800750E94 /* PaymentTableViewCell.swift */; };
 		D5E80E12264832E800750E94 /* PaymentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E80E10264832E800750E94 /* PaymentTableViewCell.xib */; };
+		D5E80E162649745F00750E94 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E80E152649745F00750E94 /* ViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +129,7 @@
 		D5E80E0C2648271600750E94 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		D5E80E0F264832E800750E94 /* PaymentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableViewCell.swift; sourceTree = "<group>"; };
 		D5E80E10264832E800750E94 /* PaymentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableViewCell.xib; sourceTree = "<group>"; };
+		D5E80E152649745F00750E94 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -192,6 +194,7 @@
 			children = (
 				D5E80D952647219E00750E94 /* PaymentNetworkListTests.swift */,
 				D5E80D972647219E00750E94 /* Info.plist */,
+				D5E80E152649745F00750E94 /* ViewModelTests.swift */,
 			);
 			path = PaymentNetworkListTests;
 			sourceTree = "<group>";
@@ -453,6 +456,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E80E162649745F00750E94 /* ViewModelTests.swift in Sources */,
 				D5E80D962647219E00750E94 /* PaymentNetworkListTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,18 +24,27 @@ class PaymentNetworkListTests: XCTestCase {
 
     //test the normal scenario
     func testListOperationsNormal() throws {
+        let promise = expectation(description: "request completed")
         let service = Service(serviceConfig!)
         operation.execute(in: service) { (result) in
 
             switch result{
                 case .success(let list):
-                    XCTAssertNotNil(list)
+                    if let listR = list{
+                        XCTAssertEqual(listR.networks.applicable.count, 17)
+                    }else{
+                        XCTFail(OONetworkError.failedToParseJSON("").localizedDescription)
+                    }
                 case .failure(let error):
-                    XCTFail("failed with errored: \(error)")
+                    XCTFail(error.localizedDescription)
             }
+            promise.fulfill()
         }
+        wait(for: [promise], timeout: 1)
     }
-    func testListOperationsWrongEndPoint() throws -> ListResult? {
+
+
+    func testListOperationsWrongEndPoint() throws  {
         let expe = expectation(description: "Create wrong session")
         let service = Service(serviceConfig!)
         operation.request =  Request(method: .get, endpoint: "", params: [:])
@@ -44,14 +53,18 @@ class PaymentNetworkListTests: XCTestCase {
             opResult = result
             expe.fulfill()
         }
-
+        wait(for: [expe], timeout: 1)
         switch opResult {
-            case .success(let list): return list
-            case .failure(let error): throw error
+            case .success(let list): return XCTAssertNotNil(list)
+            case .failure(let error): XCTAssertNotNil(error)
             case .none : throw OONetworkError.missingEndpoint
 
         }
+
+
     }
+
+    
 
 
 }
